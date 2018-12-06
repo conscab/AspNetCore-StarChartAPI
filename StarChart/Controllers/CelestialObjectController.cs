@@ -16,7 +16,7 @@ namespace StarChart.Controllers
             _context = context;
         }
 
-        private ApplicationDbContext _context { get; }
+        private readonly ApplicationDbContext _context;
 
 
     }
